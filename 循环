@@ -50,7 +50,6 @@ for in循环：
   #2 30
   i为索引值
 
-  
   例3：
   a={'wei':1,'xing':2,'ye':3}
   for i in a:
@@ -59,6 +58,7 @@ for in循环：
   #wei   1
   #xing   2
   #ye   3
+  
   另可以使用.items()方法 将字典、从转化为元素为元组的列表
   a={'wei':1,'xing':2,'ye':3}
   for i,n in a.items():
@@ -67,3 +67,31 @@ for in循环：
   #wei 1
   #xing 2
   #ye 3
+
+range()函数：
+  生成数字数列（不包括第二个变量）
+  
+  例1：
+  for i in range(0, 10):
+    print(i,end=' ')
+  #输出
+  #0 1 2 3 4 5 6 7 8 9 
+  #range(0, 10)相当于range(10)
+  
+  例2：
+  for i in range(0, 10,2):
+    print(i,end=' ')
+  #输出
+  #0 2 4 6 8 
+  
+  例3：
+  for i in range(10, 0,-2):
+    print(i,end=' ')
+  #输出
+  #10 8 6 4 2 
+  要注意步进为负
+  
+  另可以使用list()函数将一个range()转化为list
+  print(list(range(10, 0,-2)))
+  #输出
+  #[10, 8, 6, 4, 2]
