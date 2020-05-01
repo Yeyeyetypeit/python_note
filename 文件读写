@@ -1,0 +1,24 @@
+open()打开或者创建一个文件
+  用法：open('文件路径'，'打开模式')
+close()
+read()
+readline()
+readlines()
+write()
+writelines()
+
+通过OS模块进行文件和文件夹操作
+  import os
+  getcwd()
+  chdir()
+  listdir()
+  mkdir()
+os.path OS的一个子模块
+  abspath()
+  basename()
+  diname()
+  join()
+  getsize()
+  isfile()
+  isdir()
+  exists()
